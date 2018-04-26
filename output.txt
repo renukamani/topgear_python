@@ -1,0 +1,8 @@
+No. of words in line 1 is: 4
+No. of characters in line 1 is: 15
+No. of words in line 2 is: 3
+No. of characters in line 2 is: 10
+No. of words in line 3 is: 4
+No. of characters in line 3 is: 15
+No. of words in line 4 is: 1
+No. of characters in line 4 is: 6
