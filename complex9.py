@@ -1,0 +1,6 @@
+no1 = complex(2,3)
+no2 = complex(4,5)
+print("sum of two numbers is:"+str(no1+no2))
+print("difference between the two numbers is:"+str(abs(no1-no2)))
+print("multiplication of two numbers is:"+str(no1*no2))
+print("division of two numbers is:"+str(no2/no1))
