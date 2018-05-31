@@ -1,11 +1,15 @@
 e_name = list()
 e_id = list()
-for i in range(10) :
+n = int(raw_input("enter the number of employee details you want to insert"))
+for i in range(n) :
     e_name.append(raw_input("enter the name of employee"))
     e_id.append(int(raw_input("enter the id of employee")))
 print(e_name)
 ind = int(raw_input("enter the index of employee u want to select"))
-print(e_name[ind],e_id[ind])
+try:
+    print(e_name[ind],e_id[ind])
+except:
+    print("invalid index input")
 print(e_name[3:8])
 print(e_name[2:])
 rep_times = int(raw_input("enter the number of times you want to repeat print"))
