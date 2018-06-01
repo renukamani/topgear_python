@@ -1,6 +1,6 @@
 e_name = list()
 e_id = list()
-n = int(raw_input("enter the number of employee details you want to insert"))
+n = int(raw_input("enter the number of employee details greater than ten you want to insert"))
 for i in range(n) :
     e_name.append(raw_input("enter the name of employee"))
     e_id.append(int(raw_input("enter the id of employee")))

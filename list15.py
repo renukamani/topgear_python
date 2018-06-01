@@ -1,7 +1,7 @@
 names = list()
 for i in range(5) :
-    names.append(raw_input("enter name"))
-name = raw_input("enter the name u want to check")
+    names.append(raw_input("enter name").lower())
+name = raw_input("enter the name u want to check").lower()
 if name in names :
     print("yes - using in operator")
 else :
